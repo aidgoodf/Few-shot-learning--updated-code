@@ -102,7 +102,7 @@ for i in range(num_trials):
 	best_train_scorr_test_scorr_list.append(best_train_scorr_test_scorr)
 
     # Please uncomment this line to save your pre-train models
-	torch.save(best_model, model_dic + '/model_'+str(K)+'_trail_' + str(i))
+	#torch.save(best_model, model_dic + '/model_'+str(K)+'_trail_' + str(i))
 
 a = np.asarray(best_train_loss_test_corr_list).mean()
 b = np.asarray(best_train_corr_test_corr_list).mean()
